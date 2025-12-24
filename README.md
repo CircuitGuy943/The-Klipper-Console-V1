@@ -34,8 +34,6 @@ And the Schematic:
 ## Firmware Overview
 The macropad iteself is programmed in Arduino IDE using C and the neccessary libraries for using all the componenets. It then also talks through serial through the USB to the RPi. The RPi also has a python script that read the serial data from the RP2040 and does transmits it to Moonraker. Currently I have the basic communication between the two MCU's setup and the functionality of all the components in code.
 
-<img src=assets/bongocat.png alt="Bongo Cat" width="300"/>
-
 I'm excited to build it and add as many feautures, GCODE commands and Marcos as possible to my new printer Console.
 
 ## BOM:
